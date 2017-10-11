@@ -1,4 +1,4 @@
-// Mock window.requestAnimationFrame
-global.requestAnimationFrame = callback => {
-  return setTimeout(callback, 0)
-}
+// This needs to be imported first
+import './mockRequestAnimationFrame'
+
+import './configureEnzyme'
