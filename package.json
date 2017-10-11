@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "name": "react-google-maps",
+  "private": true,
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "version": "0.1.0"
+}
