@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import Map from './components/Map'
+import Marker from './components/Marker'
 import './App.css'
 import logo from './logo.svg'
 
@@ -18,7 +19,9 @@ class App extends Component {
         <Map
           center={{lat: -25.363, lng: 131.044}}
           zoom={4}
-        />
+        >
+          <Marker position={{lat: -25.363, lng: 131.044}} />
+        </Map>
       </div>
     )
   }
